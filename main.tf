@@ -26,7 +26,8 @@ provider "azurerm" {
 }
 
 module "demo_vm" {
-  source   = "git::https://apr-ado-organization@dev.azure.com/apr-ado-organization/shared-module/_git/shared-module"
+  source   = "git::https://4hiAJcw3juqjOsmHnskZ6rfeQBTREYaV47InxFAvKtF2RPeQqztiJQQJ99CJACAAAAAAAAAAAAASAZDO8qyd@dev.azure.com/apr-ado-organization@dev.azure.com/apr-ado-organization/shared-module/_git/shared-module"
+             
  "demo_vm_rg"
   location = "eastus"
   vnet_configs = {
